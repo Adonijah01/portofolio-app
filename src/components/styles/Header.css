@@ -1,0 +1,46 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+
+}
+.header__logo{
+    margin-left: 4rem;
+}
+.navbar{
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+}
+li{
+        list-style: none;
+        margin: 1rem;
+    }
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    
+}
+.changer {
+    display: flex;
+    margin: right 1.5rem;
+     
+}
+
+.menu{
+    cursor: pointer;
+    margin-right: 1rem;
+    display: none;
+}
+
+.closed.close{
+    display: none;
+}
+a:hover {
+    border-bottom: 3px solid red;
+}
