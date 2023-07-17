@@ -1,0 +1,51 @@
+/* Section.css */
+
+.sections {
+    width: 100%;
+    background-color: #f8efef;
+    padding: 4rem 0;
+}
+
+.sections__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section__img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.section__content {
+    flex: 1;
+    padding: 0 2rem;
+}
+
+.section__content h1 {
+    font-size: 36px;
+    color: rgb(82, 76, 76);
+    margin-bottom: 1rem;
+}
+
+.section__content p {
+    color: grey;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .sections__container {
+        flex-direction: column;
+    }
+
+    .section__img img {
+        max-width: 80%;
+        margin-bottom: 1rem;
+    }
+}

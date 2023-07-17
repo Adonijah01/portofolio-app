@@ -1,0 +1,60 @@
+/* Corrected CSS code */
+
+.contact {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.input {
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(82, 76, 76);
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+}
+
+.message {
+    padding-bottom: 10rem;
+}
+
+button {
+    padding: 10px 40px;
+    /* Fix the background color property */
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: 1px solid blue;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+@media (max-width: 550px) {
+    /* Correct the class name to match the HTML */
+    .input {
+        width: 80%;
+    }
+
+    /* Specify the input element correctly */
+    .input input {
+        padding: 15px;
+    }
+}
